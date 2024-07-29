@@ -100,9 +100,9 @@
         BLT {
             bindings = <
                 &bt BT_NXT          &bt BT_PRV      &bt BT_SEL 1    &bt BT_SEL 0        &trans          &bt BT_CLR      &trans              &trans              &trans          &trans
-                &trans              &trans          &trans          &trans              &trans          &sys_reset      &trans              &trans              &trans          &trans
+                &trans              &trans          &trans          &bt BT_SEL 2        &trans          &sys_reset      &trans              &trans              &trans          &trans
                 &trans              &trans          &trans          &trans              &trans          &trans          &trans              &trans              &trans          &trans
-                                                                    &to 0               &to LH_NAV      &trans          &trans
+                                                                    &trans              &to LH_NAV      &trans          &trans
             >;
         };
 
@@ -111,7 +111,7 @@
                 &kp ESC             &kp PAGE_UP     &kp UP          &kp PAGE_DOWN       &kp TAB         &trans          &trans              &trans              &trans          &trans
                 &kp BACKSPACE       &kp LEFT        &kp DOWN        &kp RIGHT           &kp DEL         &trans          &trans              &trans              &trans          &trans
                 &trans              &trans          &trans          &trans              &trans          &trans          &trans              &trans              &trans          &trans
-                                                                    &to 0               &mt LGUI SPACE  &trans          &trans
+                                                                    &trans              &mt LGUI SPACE  &trans          &trans
             >;
         };
     };
