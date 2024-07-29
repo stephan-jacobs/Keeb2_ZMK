@@ -74,7 +74,7 @@
             bindings = <
                 &kp ESC             &kp BSLH        &kp PRCNT       &kp DOLLAR          &trans          &trans          &kp CARET           &kp LBRC            &kp RBRC        &kp LA(TAB)
                 &mt LCTRL STAR      &mt LALT LPAR   &mt LGUI RPAR   &mt LSHFT COLON     &kp TAB         &kp BSPC        &mt RSHFT DQT       &mt RGUI LBKT       &mt RALT RBKT   &mt RCTRL SEMI
-                &sys_reset          &kp GRAVE       &kp AT_SIGN     &kp AMPERSAND       &trans          &trans          &kp HASH            &kp LESS_THAN       &kp GT          &trans
+                &sys_reset          &kp GRAVE       &kp AT_SIGN     &kp AMPERSAND       &bootloader     &trans          &kp HASH            &kp LESS_THAN       &kp GT          &trans
                                                                     &trans              &trans          &trans          &kp ESC             
             >;
         }; 
