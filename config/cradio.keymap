@@ -72,8 +72,8 @@
 
         SYMBOL {
             bindings = <
-                &kp ESC             &kp BSLH        &kp PRCNT       &kp DOLLAR          &trans          &trans          &kp CARET           &kp LBRC            &kp RBRC        &kp LA(TAB)
-                &mt LCTRL STAR      &mt LALT LPAR   &mt LGUI RPAR   &mt LSHFT COLON     &kp TAB         &kp BSPC        &mt RSHFT DQT       &mt RGUI LBKT       &mt RALT RBKT   &mt RCTRL SEMI
+                &kp ESC             &kp BSLH        &kp PRCNT       &kp DOLLAR          &kp PSCRN       &trans          &kp CARET           &kp LBRC            &kp RBRC        &kp LA(TAB)
+                &mt LCTRL STAR      &mt LALT LPAR   &mt LGUI RPAR   &mt LSHFT COLON     &kp CAPS        &kp BSPC        &mt RSHFT DQT       &mt RGUI LBKT       &mt RALT RBKT   &mt RCTRL SEMI
                 &sys_reset          &kp GRAVE       &kp AT_SIGN     &kp AMPERSAND       &bootloader     &trans          &kp HASH            &kp LESS_THAN       &kp GT          &trans
                                                                     &trans              &trans          &trans          &kp ESC             
             >;
@@ -81,9 +81,9 @@
 
         NUMBER {
             bindings = <
-                &kp BANG            &kp N4          &kp N5          &kp N6              &trans          &trans          &kp PIPE            &kp MINUS           &kp SLASH       &kp DEL
-                &mt LCTRL DOT       &mt LALT N1     &mt LGUI N2     &mt LSHFT N3        &kp TAB         &trans          &mt RSHFT APOS      &mt RGUI UNDER      &mt RALT EQUAL  &mt RCTRL STAR
-                &kp TILDE           &kp N7          &kp N8          &kp N9              &kp SPACE       &trans          &kp PLUS            &kp QUESTION        &kp EXCL        &trans
+                &kp BANG            &kp N7          &kp N8          &kp N9              &kb COMMA       &trans          &kp PIPE            &kp MINUS           &kp SLASH       &kp DEL
+                &mt LCTRL DOT       &mt LALT N4     &mt LGUI N5     &mt LSHFT N6        &kp COLON       &trans          &mt RSHFT APOS      &mt RGUI UNDER      &mt RALT EQUAL  &mt RCTRL STAR
+                &kp TILDE           &kp N1          &kp N2          &kp N3              &kp SPACE       &trans          &kp PLUS            &kp QUESTION        &kp EXCL        &trans
                                                                     &kp N0              &trans          &none           &none
             >;
         };
